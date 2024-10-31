@@ -4,11 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#f5f5f5", // bg-gray-100
-        secondary1: "#86EFAC", // bg-green-300
-        secondary2: "#93C5FD", // bg-blue-300
-        tertiary: "#1A3D40",
+        primary: "#E7EFF6",
+        secondary: "#ADCBE3",
+        headerFooter: "#4B86B4", // bg-green-300
+        textColor: "#2A4D69",
       },
+      fontFamily: {
+        neoSansArabic: ['"Neo Sans Arabic"', 'sans-serif']
+      }
     },
   },
   plugins: [],
