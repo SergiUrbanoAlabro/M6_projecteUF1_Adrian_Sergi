@@ -1,28 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Log In</title>
-    <script type="module" src="./src/js/main.js"></script>
-  </head>
 
-  <body class="">
-    <header class="bg-headerFooter">
-      <nav>
-        <img class="py-2 px-4" src="../assets/logo.svg" alt="" />
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log In</title>
+  <script type="module" src="./src/js/main.js"></script>
+</head>
+
+<body class=" flex flex-col">
+  <div class="flex-grow">
+    <header class="bg-headerFooter h-12 flex flex-row items-center justify-between text-sm">
+      <div class="mx-4">
+        <a href="">
+          <img src="../../public/img/Frame 16.png" alt="" class="w-16" />
+        </a>
+      </div>
+      <div class="flex gap-3 mx-4 md:gap-8">
+        <a href="" class="flex gap-1">
+          <img src="../../public/img/Navigation.svg" alt="" class="w-5" />
+          <p class="text-white hidden md:block">Peticiones</p>
+        </a>
+        <a href="" class="flex gap-1">
+          <img src="../../public/img/Bell.svg" alt="" class="w-5" />
+          <p class="text-white hidden md:block">Notificaciones</p>
+        </a>
+        <a href="" class="flex gap-1">
+          <img src="../../public/img/Calendar.svg" alt="" class="w-5" />
+          <p class="text-white hidden md:block">Horario</p>
+        </a>
+        <a href="" class="flex gap-1">
+          <img src="../../public/img/Chat_Circle.svg" alt="" class="w-5" />
+          <p class="text-white hidden md:block">Chats</p>
+        </a>
+        <a href="" class="flex gap-1">
+          <img src="../../public/img/User_03.svg" alt="" class="w-5" />
+          <p class="text-white hidden md:block">Perfil</p>
+        </a>
+      </div>
     </header>
+  </div>
 
-    <main>
-      <form action="">
-        <label class="text-textColor" for="">Nombre</label>
-        <input class="border-2 border-sky-300 rounded-md" type="text" name="" id="">
-        <label for="">Apellidos</label>
-        <input type="text" name="" id="">
-      </form>
-    </main>
+  <main>
+    <div
+      class="bg-[url('/src/assets/index2.jpg')] p-8 pt-4 w-auto aspect-[16/9] bg-cover bg-left-top my-6 md:mx-12 md:p-10 md:my-6 md:rounded-lg">
+      <div class=" w-2/5 md:w-1/4 font-neoSansArabic">
+        <h2 class="font-bold text-textColor md:text-4xl">
+          Necessites que et cuidin els fills alguna tarda?
+        </h2>
+        <p class="text-xs pt-4 md:text-lg md:pt-8">
+          En Sitterly comptem amb els millors cangurs del teu poble perque puguin cuidar als teus fills.
+        </p>
+        <button type="button"
+          class="text-xs bg-headerFooter px-3 py-1 font-bold text-white rounded-md md:text-lg md:px-6 md:py-2 md:my-4">
+          BUSCA CANGURS
+        </button>
+      </div>
+    </div>
+    <div
+      class="bg-[url('/src/assets/index1.jpg')] p-8 pt-4 w-auto aspect-[16/9] bg-cover my-6 md:mx-12 md:my-6 md:rounded-lg flex justify-end">
+      <div class="w-3/6 md:w-1/4 font-neoSansArabic text-right">
+        <h2 class="font-bold text-textColor md:text-4xl">
+          Ganes de cuidar infants de totes les edats?
+        </h2>
+        <p class="text-xs pt-4 md:text-lg md:pt-8">
+          Podras triar els teus horaris, millorar la teva experiencia com a cangur i cuidar de milers d’infants.
+        </p>
+        <button type="button"
+          class="text-xs bg-headerFooter px-3 py-1 font-bold text-white rounded-md md:text-lg md:px-6 md:py-2 md:my-4">
+          FES-TE CANGUR
+        </button>
+      </div>
+    </div>
+  </main>
 
-    <footer></footer>
-  </body>
+  <footer
+    class="bg-headerFooter h-auto text-white flex flex-row gap-8 justify-center text-sm p-8 md:gap-16 lg:gap-24 xl:gap-32">
+    <div class="flex flex-col gap-4 md:flex-row md:gap-16 lg:gap-24 xl:gap-32">
+      <div class="text-center md:text-left">
+        <p class="underline">Nosotros</p>
+        <ul>
+          <li>
+            <a href="">Servicios</a>
+          </li>
+          <li><a href="">Politica de privacidad</a></li>
+          <li><a href="">Contactanos</a></li>
+        </ul>
+      </div>
+      <div class="text-center md:text-left">
+        <p class="underline">Ayuda</p>
+        <ul>
+          <li><a href="">Preguntas frecuentes</a></li>
+          <li><a href="">Soporte</a></li>
+          <li><a href="">Pagos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <p class="underline mb-2">Siguenos</p>
+      <ul class="flex flex-col gap-3 md:flex-row md:gap-6 md:mt-2 mr-4">
+        <a href="" class="flex items-center flex-row gap-2">
+          <img src="../../public/img/facebook.svg" alt="" />
+          <p class="md:hidden">sitterlyfb.com</p>
+        </a>
+        <a href="" class="flex items-center flex-row gap-2">
+          <img src="../../public/img/instagram.svg" alt="" />
+          <p class="md:hidden">sitterlyfb.com</p>
+        </a>
+        <a href="" class="flex items-center flex-row gap-2">
+          <img src="../../public/img/twitter.svg" alt="" />
+          <p class="md:hidden">sitterlyfb.com</p>
+        </a>
+        <a href="" class="flex items-center flex-row gap-2">
+          <img src="../../public/img/linkdn.svg" alt="" />
+          <p class="md:hidden">sitterlyfb.com</p>
+        </a>
+      </ul>
+    </div>
+  </footer>
+</body>
+
 </html>
