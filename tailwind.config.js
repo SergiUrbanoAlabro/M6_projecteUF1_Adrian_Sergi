@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
+  content: ["./**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   theme: {
     extend: {
       colors: {
@@ -8,6 +8,7 @@ export default {
         secondary: "#ADCBE3",
         headerFooter: "#4B86B4", // bg-green-300
         textColor: "#2A4D69",
+        grisFigma: "#878787"
       },
       fontFamily: {
         neoSansArabic: ['"Neo Sans Arabic"', 'sans-serif']
