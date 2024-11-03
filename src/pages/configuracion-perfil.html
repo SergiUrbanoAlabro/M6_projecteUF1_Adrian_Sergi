@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forum solicitudes</title>
+    <script type="module" src="../js/main.js"></script>
+  </head>
+
+  <body class="bg-primary font-neoSansArabic">
+    <header
+      class="bg-headerFooter h-12 flex flex-row items-center justify-between text-sm"
+    >
+      <div class="mx-4">
+        <a href="">
+          <img src="../../public/img/Frame 16.png" alt="" class="w-16" />
+        </a>
+      </div>
+      <div class="flex gap-3 mx-4 md:gap-8">
+        <a href="" class="flex gap-1">
+          <img src="../../public/img/Navigation.svg" alt="" class="w-5" />
+          <p class="text-white hidden md:block">Peticiones</p>
+        </a>
+        <a href="" class="flex gap-1">
+          <img src="../../public/img/Bell.svg" alt="" class="w-5" />
+          <p class="text-white hidden md:block">Notificaciones</p>
+        </a>
+        <a href="" class="flex gap-1">
+          <img src="../../public/img/Calendar.svg" alt="" class="w-5" />
+          <p class="text-white hidden md:block">Horario</p>
+        </a>
+        <a href="" class="flex gap-1">
+          <img src="../../public/img/Chat_Circle.svg" alt="" class="w-5" />
+          <p class="text-white hidden md:block">Chats</p>
+        </a>
+        <a href="" class="flex gap-1">
+          <img src="../../public/img/User_03.svg" alt="" class="w-5" />
+          <p class="text-white hidden md:block">Perfil</p>
+        </a>
+      </div>
+    </header>
+
+    <main class="flex justify-center text-sm flex-col max-w-[1200px] mx-auto">
+
+      <div
+        class="grid grid-rows-auto m-auto mx-4 my-12 gap-y-4 md:grid-rows-none md:grid-cols-[1fr,2fr,1fr] md:gap-x-4"
+      >
+        <div
+          class="bg-white rounded border-grisFigma border-[1px] flex flex-col items-center gap-3 pt-5"
+        >
+          <img
+            src="../../public/img/foto-perfil-configuracion.svg"
+            alt=""
+            class="w-40"
+          />
+          <p class="text-textColor font-semibold">PERFIL Y PREFERENCIAS</p>
+          <div class="w-full">
+            <button
+              class="bg-headerFooter w-full text-white py-2 border-grisFigma border-[1px]"
+            >
+              General
+            </button>
+            <button
+              class="w-full text-grisFigma py-2 border-grisFigma border-b"
+            >
+              Seguridad
+            </button>
+            <button
+              class="w-full text-grisFigma py-2 border-grisFigma border-b"
+            >
+              Horarios
+            </button>
+            <button
+              class="w-full text-grisFigma py-2 border-grisFigma border-b"
+            >
+              Curriculm vitae
+            </button>
+            <button class="w-full text-grisFigma py-2 border-grisFigma">
+              Eliminar cuenta
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded border-grisFigma border-[1px]">
+          <p class="bg-headerFooter text-white py-2 pl-3">General</p>
+          <div class="text-grisFigma mx-3 my-2 mb-4 space-y-2">
+            <div class="flex flex-col gap-1">
+              <label for="">Nombre</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="border-grisFigma border-[1px] rounded py-[2px] px-2"
+              />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label for="">Apellidos</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="border-grisFigma border-[1px] rounded py-[2px] px-2"
+              />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label for="">Email</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="border-grisFigma border-[1px] rounded py-[2px] px-2"
+              />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label for="">Telefono</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="border-grisFigma border-[1px] rounded py-[2px] px-2"
+              />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label for="">Fecha de nacimiento</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="border-grisFigma border-[1px] rounded py-[2px] px-2"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-4">
+          <div class="bg-white rounded border-grisFigma border-[1px]">
+            <p class="bg-headerFooter text-white py-2 pl-3">Tus datos</p>
+            <div class="text-grisFigma ml-3 my-2 space-y-2">
+              <p>Nombre: Chung Lee</p>
+              <p>Apellidos: Lee Chan</p>
+              <p>Email: chunglee@gmail.com</p>
+              <p>Telefono: 631 26 72 63</p>
+              <p>Fecha de nacimiento: 10/02/97</p>
+              <p>Rol: Canguro</p>
+            </div>
+          </div>
+          <div class="text-center space-y-2 hidden md:block">
+            <button
+              class="text-white bg-headerFooter w-full rounded border-grisFigma py-2"
+            >
+              Guardar cambios
+            </button>
+            <button
+              class="text-white bg-headerFooter w-full rounded border-grisFigma py-2"
+            >
+              Actualizar foto de perfil
+            </button>
+          </div>
+
+          <div>
+            <button
+              class="text-white bg-headerFooter w-full rounded border-grisFigma py-2 hidden md:block"
+            >
+              Darse de baja como canguro
+            </button>
+          </div>
+        </div>
+
+        <div class="text-center space-y-2 md:hidden">
+          <button
+            class="text-white bg-headerFooter w-full rounded border-grisFigma py-2"
+          >
+            Guardar cambios
+          </button>
+          <button
+            class="text-white bg-headerFooter w-full rounded border-grisFigma py-2"
+          >
+            Actualizar foto de perfil
+          </button>
+        </div>
+        <button
+          class="text-white bg-headerFooter w-full rounded border-grisFigma py-2 md:hidden"
+        >
+          Darse de baja como canguro
+        </button>
+      </div>
+    </main>
+
+    <footer
+      class="bg-headerFooter h-auto text-white flex flex-row gap-8 justify-center text-sm p-8 md:gap-16 lg:gap-24 xl:gap-32"
+    >
+      <div
+        class="flex flex-col gap-4 md:flex-row md:gap-16 lg:gap-24 xl:gap-32"
+      >
+        <div class="text-center md:text-left">
+          <p class="underline">Nosotros</p>
+          <ul>
+            <li>
+              <a href="">Servicios</a>
+            </li>
+            <li><a href="">Politica de privacidad</a></li>
+            <li><a href="">Contactanos</a></li>
+          </ul>
+        </div>
+        <div class="text-center md:text-left">
+          <p class="underline">Ayuda</p>
+          <ul>
+            <li><a href="">Preguntas frecuentes</a></li>
+            <li><a href="">Soporte</a></li>
+            <li><a href="">Pagos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <p class="underline mb-2">Siguenos</p>
+        <ul class="flex flex-col gap-3 md:flex-row md:gap-6 md:mt-2 mr-4">
+          <a href="" class="flex items-center flex-row gap-2">
+            <img src="../../public/img/facebook.svg" alt="" />
+            <p class="md:hidden">sitterlyfb.com</p>
+          </a>
+          <a href="" class="flex items-center flex-row gap-2">
+            <img src="../../public/img/instagram.svg" alt="" />
+            <p class="md:hidden">sitterlyfb.com</p>
+          </a>
+          <a href="" class="flex items-center flex-row gap-2">
+            <img src="../../public/img/twitter.svg" alt="" />
+            <p class="md:hidden">sitterlyfb.com</p>
+          </a>
+          <a href="" class="flex items-center flex-row gap-2">
+            <img src="../../public/img/linkdn.svg" alt="" />
+            <p class="md:hidden">sitterlyfb.com</p>
+          </a>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
