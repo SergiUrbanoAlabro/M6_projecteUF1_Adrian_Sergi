@@ -1,110 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sitterly</title>
     <script type="module" src="../js/main.js"></script>
-</head>
+  </head>
 
-<body class=" flex flex-col">
+  <body class="flex flex-col">
     <div class="flex-grow">
-        <header class="bg-headerFooter h-12 flex flex-row items-center justify-between text-sm">
-            <div class="mx-4">
-                <a href="">
-                    <img src="../../public/img/Frame 16.png" alt="" class="w-16" />
-                </a>
-            </div>
-            <div class="flex gap-3 mx-4 md:gap-8">
-                <a href="" class="flex gap-1">
-                    <img src="../../public/img/Navigation.svg" alt="" class="w-5" />
-                    <p class="text-white hidden md:block">Peticiones</p>
-                </a>
-                <a href="" class="flex gap-1">
-                    <img src="../../public/img/Bell.svg" alt="" class="w-5" />
-                    <p class="text-white hidden md:block">Notificaciones</p>
-                </a>
-                <a href="" class="flex gap-1">
-                    <img src="../../public/img/Calendar.svg" alt="" class="w-5" />
-                    <p class="text-white hidden md:block">Horario</p>
-                </a>
-                <a href="" class="flex gap-1">
-                    <img src="../../public/img/Chat_Circle.svg" alt="" class="w-5" />
-                    <p class="text-white hidden md:block">Chats</p>
-                </a>
-                <a href="" class="flex gap-1">
-                    <img src="../../public/img/User_03.svg" alt="" class="w-5" />
-                    <p class="text-white hidden md:block">Perfil</p>
-                </a>
-            </div>
-        </header>
+      <header
+        class="bg-headerFooter h-12 flex flex-row items-center justify-between text-sm"
+      >
+        <div class="mx-4">
+          <a href="../../index.html">
+            <img src="../assets/Frame 16.png" alt="" class="w-16" />
+          </a>
+        </div>
+        <div class="flex gap-3 mx-4 md:gap-8">
+          <a href="./formulariAjuda.html" class="flex gap-1">
+            <img src="../assets/ayuda.svg" alt="" class="w-5" />
+            <p class="text-white hidden md:block">Ayuda</p>
+          </a>
+          <a href="./forum-solicitudes.html" class="flex gap-1">
+            <img src="../assets/Navigation.svg" alt="" class="w-5" />
+            <p class="text-white hidden md:block">Peticiones</p>
+          </a>
+          <a href="" class="flex gap-1">
+            <img src="../assets/Bell.svg" alt="" class="w-5" />
+            <p class="text-white hidden md:block">Notificaciones</p>
+          </a>
+          <a href="" class="flex gap-1">
+            <img src="../assets/Calendar.svg" alt="" class="w-5" />
+            <p class="text-white hidden md:block">Horario</p>
+          </a>
+          <a href="./chats.html" class="flex gap-1">
+            <img src="../assets/Chat_Circle.svg" alt="" class="w-5" />
+            <p class="text-white hidden md:block">Chats</p>
+          </a>
+          <a href="./configuracion-perfil.html" class="flex gap-1">
+            <img src="../assets/User_03.svg" alt="" class="w-5" />
+            <p class="text-white hidden md:block">Perfil</p>
+          </a>
+        </div>
+      </header>
     </div>
 
     <main class="font-neoSansArabic">
-        <div class="bg-secondary py-8 max-w-5xl md:mx-auto md:my-8 md:px-16 md:rounded-xl">
-            <h1 class="text-4xl text-center uppercase font-bold text-textColor px-20">Formulari de Contacte</h1>
-            <form class="">
-                <legend class="font-bold text-textColor mt-4 ms-12">Dades Personals</legend>
-                <div class="border-2 border-textColor mx-12 rounded-md p-6 md:px-12">
-                    <input type="text" class="w-full my-2 py-2 rounded-full px-4 placeholder-textColor" placeholder="Nom">
-                    <input type="text" class="w-full my-2 py-2 rounded-full px-4 placeholder-textColor" placeholder="Cognom">
-                    <input type="email" class="w-full my-2 py-2 rounded-full px-4 placeholder-textColor" placeholder="Email">
-                </div>
-                <legend class="font-bold text-textColor mt-4 ms-12">Detalls del Dubte</legend>
-                <div class="border-2 border-textColor mx-12 rounded-md p-6 md:px-12">
-                    <input type="text" class="w-full my-2 py-2 rounded-full px-4 placeholder-textColor" placeholder="Tema">
-                    <textarea class="w-full h-24 rounded-3xl px-4 py-1 placeholder-textColor" placeholder="Missatge"></textarea>
-                </div>
-                <button type="submit" class="uppercase ms-12 mt-2 px-8 py-2 bg-headerFooter font-bold text-white rounded-lg text-sm">Enviar</button>
-            </form>
-        </div>
+      <div
+        class="bg-secondary py-8 max-w-5xl md:mx-auto md:my-8 md:px-16 md:rounded-xl"
+      >
+        <h1
+          class="text-4xl text-center uppercase font-bold text-textColor px-20"
+        >
+          Formulari de Contacte
+        </h1>
+        <form class="">
+          <legend class="font-bold text-textColor mt-4 ms-12">
+            Dades Personals
+          </legend>
+          <div class="border-2 border-textColor mx-12 rounded-md p-6 md:px-12">
+            <input
+              type="text"
+              class="w-full my-2 py-2 rounded-full px-4 placeholder-textColor"
+              placeholder="Nom"
+            />
+            <input
+              type="text"
+              class="w-full my-2 py-2 rounded-full px-4 placeholder-textColor"
+              placeholder="Cognom"
+            />
+            <input
+              type="email"
+              class="w-full my-2 py-2 rounded-full px-4 placeholder-textColor"
+              placeholder="Email"
+            />
+          </div>
+          <legend class="font-bold text-textColor mt-4 ms-12">
+            Detalls del Dubte
+          </legend>
+          <div class="border-2 border-textColor mx-12 rounded-md p-6 md:px-12">
+            <input
+              type="text"
+              class="w-full my-2 py-2 rounded-full px-4 placeholder-textColor"
+              placeholder="Tema"
+            />
+            <textarea
+              class="w-full h-24 rounded-3xl px-4 py-1 placeholder-textColor"
+              placeholder="Missatge"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="uppercase ms-12 mt-2 px-8 py-2 bg-headerFooter font-bold text-white rounded-lg text-sm"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
     </main>
 
     <footer
-        class="bg-headerFooter h-auto text-white flex flex-row gap-8 justify-center text-sm p-8 md:gap-16 lg:gap-24 xl:gap-32">
-        <div class="flex flex-col gap-4 md:flex-row md:gap-16 lg:gap-24 xl:gap-32">
-            <div class="text-center md:text-left">
-                <p class="underline">Nosotros</p>
-                <ul>
-                    <li>
-                        <a href="">Servicios</a>
-                    </li>
-                    <li><a href="">Politica de privacidad</a></li>
-                    <li><a href="">Contactanos</a></li>
-                </ul>
-            </div>
-            <div class="text-center md:text-left">
-                <p class="underline">Ayuda</p>
-                <ul>
-                    <li><a href="">Preguntas frecuentes</a></li>
-                    <li><a href="">Soporte</a></li>
-                    <li><a href="">Pagos</a></li>
-                </ul>
-            </div>
+      class="bg-headerFooter h-auto text-white flex flex-row gap-8 justify-center text-sm p-8 md:gap-16 lg:gap-24 xl:gap-32"
+    >
+      <div
+        class="flex flex-col gap-4 md:flex-row md:gap-16 lg:gap-24 xl:gap-32"
+      >
+        <div class="text-center md:text-left">
+          <p class="underline">Nosotros</p>
+          <ul>
+            <li>
+              <a href="">Servicios</a>
+            </li>
+            <li><a href="">Politica de privacidad</a></li>
+            <li><a href="">Contactanos</a></li>
+          </ul>
         </div>
-        <div>
-            <p class="underline mb-2">Siguenos</p>
-            <ul class="flex flex-col gap-3 md:flex-row md:gap-6 md:mt-2 mr-4">
-                <a href="" class="flex items-center flex-row gap-2">
-                    <img src="../../public/img/facebook.svg" alt="" />
-                    <p class="md:hidden">sitterlyfb.com</p>
-                </a>
-                <a href="" class="flex items-center flex-row gap-2">
-                    <img src="../../public/img/instagram.svg" alt="" />
-                    <p class="md:hidden">sitterlyfb.com</p>
-                </a>
-                <a href="" class="flex items-center flex-row gap-2">
-                    <img src="../../public/img/twitter.svg" alt="" />
-                    <p class="md:hidden">sitterlyfb.com</p>
-                </a>
-                <a href="" class="flex items-center flex-row gap-2">
-                    <img src="../../public/img/linkdn.svg" alt="" />
-                    <p class="md:hidden">sitterlyfb.com</p>
-                </a>
-            </ul>
+        <div class="text-center md:text-left">
+          <p class="underline">Ayuda</p>
+          <ul>
+            <li><a href="">Preguntas frecuentes</a></li>
+            <li><a href="">Soporte</a></li>
+            <li><a href="">Pagos</a></li>
+          </ul>
         </div>
+      </div>
+      <div>
+        <p class="underline mb-2">Siguenos</p>
+        <ul class="flex flex-col gap-3 md:flex-row md:gap-6 md:mt-2 mr-4">
+          <a href="" class="flex items-center flex-row gap-2">
+            <img src="../assets/facebook.svg" alt="" />
+            <p class="md:hidden">sitterlyfb.com</p>
+          </a>
+          <a href="" class="flex items-center flex-row gap-2">
+            <img src="../assets/instagram.svg" alt="" />
+            <p class="md:hidden">sitterlyfb.com</p>
+          </a>
+          <a href="" class="flex items-center flex-row gap-2">
+            <img src="../assets/twitter.svg" alt="" />
+            <p class="md:hidden">sitterlyfb.com</p>
+          </a>
+          <a href="" class="flex items-center flex-row gap-2">
+            <img src="../assets/linkdn.svg" alt="" />
+            <p class="md:hidden">sitterlyfb.com</p>
+          </a>
+        </ul>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

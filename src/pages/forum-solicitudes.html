@@ -12,74 +12,86 @@
       class="bg-headerFooter h-12 flex flex-row items-center justify-between text-sm"
     >
       <div class="mx-4">
-        <a href="">
-          <img src="../../public/img/Frame 16.png" alt="" class="w-16" />
+        <a href="../../index.html">
+          <img src="../assets/Frame 16.png" alt="" class="w-16" />
         </a>
       </div>
       <div class="flex gap-3 mx-4 md:gap-8">
-        <a href="" class="flex gap-1">
-          <img src="../../public/img/Navigation.svg" alt="" class="w-5" />
+        <a href="./formulariAjuda.html" class="flex gap-1">
+          <img src="../assets/ayuda.svg" alt="" class="w-5" />
+          <p class="text-white hidden md:block">Ayuda</p>
+        </a>
+        <a href="./forum-solicitudes.html" class="flex gap-1">
+          <img src="../assets/Navigation.svg" alt="" class="w-5" />
           <p class="text-white hidden md:block">Peticiones</p>
         </a>
         <a href="" class="flex gap-1">
-          <img src="../../public/img/Bell.svg" alt="" class="w-5" />
+          <img src="../assets/Bell.svg" alt="" class="w-5" />
           <p class="text-white hidden md:block">Notificaciones</p>
         </a>
         <a href="" class="flex gap-1">
-          <img src="../../public/img/Calendar.svg" alt="" class="w-5" />
+          <img src="../assets/Calendar.svg" alt="" class="w-5" />
           <p class="text-white hidden md:block">Horario</p>
         </a>
-        <a href="" class="flex gap-1">
-          <img src="../../public/img/Chat_Circle.svg" alt="" class="w-5" />
+        <a href="./chats.html" class="flex gap-1">
+          <img src="../assets/Chat_Circle.svg" alt="" class="w-5" />
           <p class="text-white hidden md:block">Chats</p>
         </a>
-        <a href="" class="flex gap-1">
-          <img src="../../public/img/User_03.svg" alt="" class="w-5" />
+        <a href="./configuracion-perfil.html" class="flex gap-1">
+          <img src="../assets/User_03.svg" alt="" class="w-5" />
           <p class="text-white hidden md:block">Perfil</p>
         </a>
       </div>
     </header>
 
     <main class="flex justify-center text-sm flex-col">
-      <div class="grid grid-rows-[30px,auto,auto] w-auto mx-auto my-12 gap-y-3 xl:gap-x-3 px-4 xl:grid-cols-[auto,auto]">
+      <div
+        class="grid grid-rows-[30px,auto,auto] w-auto mx-auto my-12 gap-y-3 xl:gap-x-3 px-4 xl:grid-cols-[auto,auto]"
+      >
         <div class="hidden xl:grid grid-rows-[auto,auto] xl:gap-3">
-          <div class="border-[1px] border-grisFigma rounded bg-white flex flex-col w-52 h-52 row-start-1">
+          <div
+            class="border-[1px] border-grisFigma rounded bg-white flex flex-col w-52 h-52 row-start-1"
+          >
             <div class="bg-headerFooter w-full py-1 px-2 text-white">
               <p>Ubicacion</p>
             </div>
             <div class="flex flex-col ml-4 mt-2 gap-2">
               <div class="flex space-x-2">
-                <input type="checkbox" class="border-grisFigma" name="" id="">
+                <input type="checkbox" class="border-grisFigma" name="" id="" />
                 <p>Vic</p>
               </div>
               <div class="flex space-x-2">
-                <input type="checkbox" class="border-grisFigma" name="" id="">
+                <input type="checkbox" class="border-grisFigma" name="" id="" />
                 <p>Ripoll</p>
               </div>
               <div class="flex space-x-2">
-                <input type="checkbox" class="border-grisFigma" name="" id="">
+                <input type="checkbox" class="border-grisFigma" name="" id="" />
                 <p>Granollers</p>
               </div>
               <div class="flex space-x-2">
-                <input type="checkbox" class="border-grisFigma" name="" id="">
+                <input type="checkbox" class="border-grisFigma" name="" id="" />
                 <p>Manlleu</p>
               </div>
               <div class="flex space-x-2">
-                <input type="checkbox" class="border-grisFigma" name="" id="">
+                <input type="checkbox" class="border-grisFigma" name="" id="" />
                 <p>Centelles</p>
               </div>
               <div class="flex space-x-2">
-                <input type="checkbox" class="border-grisFigma" name="" id="">
+                <input type="checkbox" class="border-grisFigma" name="" id="" />
                 <p>Torello</p>
               </div>
             </div>
           </div>
 
           <div class="text-center hidden xl:block">
-            <button class=" bg-headerFooter w-full rounded text-white py-1">Aplicar filtros</button>
+            <button class="bg-headerFooter w-full rounded text-white py-1">
+              Aplicar filtros
+            </button>
           </div>
         </div>
-        <div class="border-[1px] border-grisFigma rounded bg-white py-1 px-2 max-w-[700px] flex items-center col-start-2  xl:hidden">
+        <div
+          class="border-[1px] border-grisFigma rounded bg-white py-1 px-2 max-w-[700px] flex items-center col-start-2 xl:hidden"
+        >
           <input
             type="text"
             name=""
@@ -87,9 +99,11 @@
             class="flex-grow"
             placeholder="Filtrar"
           />
-          <img src="../../public/img/filter.svg" alt="Buscar" class="w-4 ml-2"/>
+          <img src="../assets/filter.svg" alt="Buscar" class="w-4 ml-2" />
         </div>
-        <div class="border-[1px] border-grisFigma rounded bg-white max-w-[700px] flex items-center xl:row-start-1 xl:row-end-2 col-start-2">
+        <div
+          class="border-[1px] border-grisFigma rounded bg-white max-w-[700px] flex items-center xl:row-start-1 xl:row-end-2 col-start-2"
+        >
           <input
             type="text"
             name=""
@@ -97,259 +111,275 @@
             class="flex-grow h-7 px-2 rounded"
             placeholder="Buscar solicitud..."
           />
-          <img src="../../public/img/search.svg" alt="Buscar" class="w-4 mr-2 xl:hidden"/>
-          <button class="bg-headerFooter h-full text-white px-4 hidden xl:block">Buscar</button>
+          <img
+            src="../assets/search.svg"
+            alt="Buscar"
+            class="w-4 mr-2 xl:hidden"
+          />
+          <button
+            class="bg-headerFooter h-full text-white px-4 hidden xl:block"
+          >
+            Buscar
+          </button>
         </div>
 
         <div
-        class="border-[1px] border-grisFigma rounded bg-white p-5 max-w-[700px] col-start-2"
-      >
-        <div class="grid grid-cols-[auto,1fr] grid-rows-[auto,1fr]">
-          <img
-            class="min-w-[80px] max-w-[120px] w-[10vw] md:row-start-1 lg:row-end-3 sm:w-32"
-            src="../../public/img/foto-card-forum-solicitudes.svg"
-            alt=""
-          />
-          <div
-            class="grid grid-cols-3 grid-rows-[auto,auto,auto] pl-5 gap-y-0 md:gap-y-[10px]"
-          >
-            <p
-              class="text-textColor font-semibold row-start-1 col-start-1 col-end-3"
+          class="border-[1px] border-grisFigma rounded bg-white p-5 max-w-[700px] col-start-2"
+        >
+          <div class="grid grid-cols-[auto,1fr] grid-rows-[auto,1fr]">
+            <img
+              class="min-w-[80px] max-w-[120px] w-[10vw] md:row-start-1 lg:row-end-3 sm:w-32"
+              src="../assets/foto-card-forum-solicitudes.svg"
+              alt=""
+            />
+            <div
+              class="grid grid-cols-3 grid-rows-[auto,auto,auto] pl-5 gap-y-0 md:gap-y-[10px]"
             >
-              Nombre: Luis
-            </p>
-            <p
-              class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-1"
+              <p
+                class="text-textColor font-semibold row-start-1 col-start-1 col-end-3"
+              >
+                Nombre: Luis
+              </p>
+              <p
+                class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-1"
+              >
+                Apellidos: Rojas
+              </p>
+              <p
+                class="text-textColor font-semibold col-start-1 col-end-3 sm:row-start-2"
+              >
+                Edad: 45
+              </p>
+              <p
+                class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-2"
+              >
+                Ubicación: Vic
+              </p>
+              <p
+                class="text-textColor hidden sm:block font-semibold col-start-2 row-start-1 col-end-4 ml-8 sm:ml-0 sm:col-start-3 sm:row-start-1"
+              >
+                Telefono: 631367253
+              </p>
+              <p
+                class="hidden sm:block sm:col-start-1 sm:col-end-4 text-justify"
+              >
+                <span class="text-textColor font-semibold"
+                  >Solicitud: <br /> </span
+                >Hola, estoy buscando un/a canguro responsable y con experiencia
+                para cuidar a mis hijos (3 y 5 años) los fines de semana y
+                algunas tardes entre semana. Nos gustaría alguien que disfrute
+                de jugar con niños y pueda ayudar con algunas tareas ligeras en
+                casa. Vivimos en [ubicación], así que si estás cerca sería
+                ideal. ¡Gracias!
+              </p>
+            </div>
+            <div
+              class="col-start-1 col-end-4 row-start-2 pt-4 text-justify md:col-start-2 md:px-5 sm:hidden"
             >
-              Apellidos: Rojas
-            </p>
-            <p
-              class="text-textColor font-semibold col-start-1 col-end-3 sm:row-start-2"
-            >
-              Edad: 45
-            </p>
-            <p
-              class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-2"
-            >
-              Ubicación: Vic
-            </p>
-            <p
-              class="text-textColor hidden sm:block font-semibold col-start-2 row-start-1 col-end-4 ml-8 sm:ml-0 sm:col-start-3 sm:row-start-1"
-            >
-              Telefono: 631367253
-            </p>
-            <p class="hidden sm:block sm:col-start-1 sm:col-end-4 text-justify">
-              <span class="text-textColor font-semibold"
-                >Solicitud: <br /> </span
-              >Hola, estoy buscando un/a canguro responsable y con experiencia
-              para cuidar a mis hijos (3 y 5 años) los fines de semana y algunas
-              tardes entre semana. Nos gustaría alguien que disfrute de jugar
-              con niños y pueda ayudar con algunas tareas ligeras en casa.
-              Vivimos en [ubicación], así que si estás cerca sería ideal.
-              ¡Gracias!
-            </p>
+              <p>
+                <span class="text-textColor font-semibold">Solicitud: </span
+                >Hola, estoy buscando un/a canguro responsable y con experiencia
+                para cuidar a mis hijos (3 y 5 años) los fines de semana y
+                algunas tardes entre semana. Nos gustaría alguien que disfrute
+                de jugar con niños y pueda ayudar con algunas tareas ligeras en
+                casa. Vivimos en [ubicación], así que si estás cerca sería
+                ideal. ¡Gracias!
+              </p>
+            </div>
           </div>
-          <div
-            class="col-start-1 col-end-4 row-start-2 pt-4 text-justify md:col-start-2 md:px-5 sm:hidden"
-          >
-            <p>
-              <span class="text-textColor font-semibold">Solicitud: </span>Hola,
-              estoy buscando un/a canguro responsable y con experiencia para
-              cuidar a mis hijos (3 y 5 años) los fines de semana y algunas
-              tardes entre semana. Nos gustaría alguien que disfrute de jugar
-              con niños y pueda ayudar con algunas tareas ligeras en casa.
-              Vivimos en [ubicación], así que si estás cerca sería ideal.
-              ¡Gracias!
-            </p>
+          <div class="m-auto my-5">
+            <img src="../assets/line.svg" alt="" />
+          </div>
+          <div class="grid grid-cols-[auto,1fr] grid-rows-[auto,1fr]">
+            <img
+              class="min-w-[80px] max-w-[120px] w-[10vw] md:row-start-1 lg:row-end-3 sm:w-32"
+              src="../assets/foto-card-forum-solicitudes.svg"
+              alt=""
+            />
+            <div
+              class="grid grid-cols-3 grid-rows-[auto,auto,auto] pl-5 gap-y-0 md:gap-y-[10px]"
+            >
+              <p
+                class="text-textColor font-semibold row-start-1 col-start-1 col-end-3"
+              >
+                Nombre: Luis
+              </p>
+              <p
+                class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-1"
+              >
+                Apellidos: Rojas
+              </p>
+              <p
+                class="text-textColor font-semibold col-start-1 col-end-3 sm:row-start-2"
+              >
+                Edad: 45
+              </p>
+              <p
+                class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-2"
+              >
+                Ubicación: Vic
+              </p>
+              <p
+                class="text-textColor hidden sm:block font-semibold col-start-2 row-start-1 col-end-4 ml-8 sm:ml-0 sm:col-start-3 sm:row-start-1"
+              >
+                Telefono: 631367253
+              </p>
+              <p
+                class="hidden sm:block sm:col-start-1 sm:col-end-4 text-justify"
+              >
+                <span class="text-textColor font-semibold"
+                  >Solicitud: <br /> </span
+                >Hola, estoy buscando un/a canguro responsable y con experiencia
+                para cuidar a mis hijos (3 y 5 años) los fines de semana y
+                algunas tardes entre semana. Nos gustaría alguien que disfrute
+                de jugar con niños y pueda ayudar con algunas tareas ligeras en
+                casa. Vivimos en [ubicación], así que si estás cerca sería
+                ideal. ¡Gracias!
+              </p>
+            </div>
+            <div
+              class="col-start-1 col-end-4 row-start-2 pt-4 text-justify md:col-start-2 md:px-5 sm:hidden"
+            >
+              <p>
+                <span class="text-textColor font-semibold">Solicitud: </span
+                >Hola, estoy buscando un/a canguro responsable y con experiencia
+                para cuidar a mis hijos (3 y 5 años) los fines de semana y
+                algunas tardes entre semana. Nos gustaría alguien que disfrute
+                de jugar con niños y pueda ayudar con algunas tareas ligeras en
+                casa. Vivimos en [ubicación], así que si estás cerca sería
+                ideal. ¡Gracias!
+              </p>
+            </div>
+          </div>
+          <div class="m-auto my-5">
+            <img src="../assets/line.svg" alt="" />
+          </div>
+          <div class="grid grid-cols-[auto,1fr] grid-rows-[auto,1fr]">
+            <img
+              class="min-w-[80px] max-w-[120px] w-[10vw] md:row-start-1 lg:row-end-3 sm:w-32"
+              src="../assets/foto-card-forum-solicitudes.svg"
+              alt=""
+            />
+            <div
+              class="grid grid-cols-3 grid-rows-[auto,auto,auto] pl-5 gap-y-0 md:gap-y-[10px]"
+            >
+              <p
+                class="text-textColor font-semibold row-start-1 col-start-1 col-end-3"
+              >
+                Nombre: Luis
+              </p>
+              <p
+                class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-1"
+              >
+                Apellidos: Rojas
+              </p>
+              <p
+                class="text-textColor font-semibold col-start-1 col-end-3 sm:row-start-2"
+              >
+                Edad: 45
+              </p>
+              <p
+                class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-2"
+              >
+                Ubicación: Vic
+              </p>
+              <p
+                class="text-textColor hidden sm:block font-semibold col-start-2 row-start-1 col-end-4 ml-8 sm:ml-0 sm:col-start-3 sm:row-start-1"
+              >
+                Telefono: 631367253
+              </p>
+              <p
+                class="hidden sm:block sm:col-start-1 sm:col-end-4 text-justify"
+              >
+                <span class="text-textColor font-semibold"
+                  >Solicitud: <br /> </span
+                >Hola, estoy buscando un/a canguro responsable y con experiencia
+                para cuidar a mis hijos (3 y 5 años) los fines de semana y
+                algunas tardes entre semana. Nos gustaría alguien que disfrute
+                de jugar con niños y pueda ayudar con algunas tareas ligeras en
+                casa. Vivimos en [ubicación], así que si estás cerca sería
+                ideal. ¡Gracias!
+              </p>
+            </div>
+            <div
+              class="col-start-1 col-end-4 row-start-2 pt-4 text-justify md:col-start-2 md:px-5 sm:hidden"
+            >
+              <p>
+                <span class="text-textColor font-semibold">Solicitud: </span
+                >Hola, estoy buscando un/a canguro responsable y con experiencia
+                para cuidar a mis hijos (3 y 5 años) los fines de semana y
+                algunas tardes entre semana. Nos gustaría alguien que disfrute
+                de jugar con niños y pueda ayudar con algunas tareas ligeras en
+                casa. Vivimos en [ubicación], así que si estás cerca sería
+                ideal. ¡Gracias!
+              </p>
+            </div>
+          </div>
+          <div class="m-auto my-5">
+            <img src="../assets/line.svg" alt="" />
+          </div>
+          <div class="grid grid-cols-[auto,1fr] grid-rows-[auto,1fr]">
+            <img
+              class="min-w-[80px] max-w-[120px] w-[10vw] md:row-start-1 lg:row-end-3 sm:w-32"
+              src="../assets/foto-card-forum-solicitudes.svg"
+              alt=""
+            />
+            <div
+              class="grid grid-cols-3 grid-rows-[auto,auto,auto] pl-5 gap-y-0 md:gap-y-[10px]"
+            >
+              <p
+                class="text-textColor font-semibold row-start-1 col-start-1 col-end-3"
+              >
+                Nombre: Luis
+              </p>
+              <p
+                class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-1"
+              >
+                Apellidos: Rojas
+              </p>
+              <p
+                class="text-textColor font-semibold col-start-1 col-end-3 sm:row-start-2"
+              >
+                Edad: 45
+              </p>
+              <p
+                class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-2"
+              >
+                Ubicación: Vic
+              </p>
+              <p
+                class="text-textColor hidden sm:block font-semibold col-start-2 row-start-1 col-end-4 ml-8 sm:ml-0 sm:col-start-3 sm:row-start-1"
+              >
+                Telefono: 631367253
+              </p>
+              <p
+                class="hidden sm:block sm:col-start-1 sm:col-end-4 text-justify"
+              >
+                <span class="text-textColor font-semibold"
+                  >Solicitud: <br /> </span
+                >Hola, estoy buscando un/a canguro responsable y con experiencia
+                para cuidar a mis hijos (3 y 5 años) los fines de semana y
+                algunas tardes entre semana. Nos gustaría alguien que disfrute
+                de jugar con niños y pueda ayudar con algunas tareas ligeras en
+                casa. Vivimos en [ubicación], así que si estás cerca sería
+                ideal. ¡Gracias!
+              </p>
+            </div>
+            <div
+              class="col-start-1 col-end-4 row-start-2 pt-4 text-justify md:col-start-2 md:px-5 sm:hidden"
+            >
+              <p>
+                <span class="text-textColor font-semibold">Solicitud: </span
+                >Hola, estoy buscando un/a canguro responsable y con experiencia
+                para cuidar a mis hijos (3 y 5 años) los fines de semana y
+                algunas tardes entre semana. Nos gustaría alguien que disfrute
+                de jugar con niños y pueda ayudar con algunas tareas ligeras en
+                casa. Vivimos en [ubicación], así que si estás cerca sería
+                ideal. ¡Gracias!
+              </p>
+            </div>
           </div>
         </div>
-        <div class="m-auto my-5">
-          <img src="../../public/img/line.svg" alt="" />
-        </div>
-        <div class="grid grid-cols-[auto,1fr] grid-rows-[auto,1fr]">
-          <img
-            class="min-w-[80px] max-w-[120px] w-[10vw] md:row-start-1 lg:row-end-3 sm:w-32"
-            src="../../public/img/foto-card-forum-solicitudes.svg"
-            alt=""
-          />
-          <div
-            class="grid grid-cols-3 grid-rows-[auto,auto,auto] pl-5 gap-y-0 md:gap-y-[10px]"
-          >
-            <p
-              class="text-textColor font-semibold row-start-1 col-start-1 col-end-3"
-            >
-              Nombre: Luis
-            </p>
-            <p
-              class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-1"
-            >
-              Apellidos: Rojas
-            </p>
-            <p
-              class="text-textColor font-semibold col-start-1 col-end-3 sm:row-start-2"
-            >
-              Edad: 45
-            </p>
-            <p
-              class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-2"
-            >
-              Ubicación: Vic
-            </p>
-            <p
-              class="text-textColor hidden sm:block font-semibold col-start-2 row-start-1 col-end-4 ml-8 sm:ml-0 sm:col-start-3 sm:row-start-1"
-            >
-              Telefono: 631367253
-            </p>
-            <p class="hidden sm:block sm:col-start-1 sm:col-end-4 text-justify">
-              <span class="text-textColor font-semibold"
-                >Solicitud: <br /> </span
-              >Hola, estoy buscando un/a canguro responsable y con experiencia
-              para cuidar a mis hijos (3 y 5 años) los fines de semana y algunas
-              tardes entre semana. Nos gustaría alguien que disfrute de jugar
-              con niños y pueda ayudar con algunas tareas ligeras en casa.
-              Vivimos en [ubicación], así que si estás cerca sería ideal.
-              ¡Gracias!
-            </p>
-          </div>
-          <div
-            class="col-start-1 col-end-4 row-start-2 pt-4 text-justify md:col-start-2 md:px-5 sm:hidden"
-          >
-            <p>
-              <span class="text-textColor font-semibold">Solicitud: </span>Hola,
-              estoy buscando un/a canguro responsable y con experiencia para
-              cuidar a mis hijos (3 y 5 años) los fines de semana y algunas
-              tardes entre semana. Nos gustaría alguien que disfrute de jugar
-              con niños y pueda ayudar con algunas tareas ligeras en casa.
-              Vivimos en [ubicación], así que si estás cerca sería ideal.
-              ¡Gracias!
-            </p>
-          </div>
-        </div>
-        <div class="m-auto my-5">
-          <img src="../../public/img/line.svg" alt="" />
-        </div>
-        <div class="grid grid-cols-[auto,1fr] grid-rows-[auto,1fr]">
-          <img
-            class="min-w-[80px] max-w-[120px] w-[10vw] md:row-start-1 lg:row-end-3 sm:w-32"
-            src="../../public/img/foto-card-forum-solicitudes.svg"
-            alt=""
-          />
-          <div
-            class="grid grid-cols-3 grid-rows-[auto,auto,auto] pl-5 gap-y-0 md:gap-y-[10px]"
-          >
-            <p
-              class="text-textColor font-semibold row-start-1 col-start-1 col-end-3"
-            >
-              Nombre: Luis
-            </p>
-            <p
-              class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-1"
-            >
-              Apellidos: Rojas
-            </p>
-            <p
-              class="text-textColor font-semibold col-start-1 col-end-3 sm:row-start-2"
-            >
-              Edad: 45
-            </p>
-            <p
-              class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-2"
-            >
-              Ubicación: Vic
-            </p>
-            <p
-              class="text-textColor hidden sm:block font-semibold col-start-2 row-start-1 col-end-4 ml-8 sm:ml-0 sm:col-start-3 sm:row-start-1"
-            >
-              Telefono: 631367253
-            </p>
-            <p class="hidden sm:block sm:col-start-1 sm:col-end-4 text-justify">
-              <span class="text-textColor font-semibold"
-                >Solicitud: <br /> </span
-              >Hola, estoy buscando un/a canguro responsable y con experiencia
-              para cuidar a mis hijos (3 y 5 años) los fines de semana y algunas
-              tardes entre semana. Nos gustaría alguien que disfrute de jugar
-              con niños y pueda ayudar con algunas tareas ligeras en casa.
-              Vivimos en [ubicación], así que si estás cerca sería ideal.
-              ¡Gracias!
-            </p>
-          </div>
-          <div
-            class="col-start-1 col-end-4 row-start-2 pt-4 text-justify md:col-start-2 md:px-5 sm:hidden"
-          >
-            <p>
-              <span class="text-textColor font-semibold">Solicitud: </span>Hola,
-              estoy buscando un/a canguro responsable y con experiencia para
-              cuidar a mis hijos (3 y 5 años) los fines de semana y algunas
-              tardes entre semana. Nos gustaría alguien que disfrute de jugar
-              con niños y pueda ayudar con algunas tareas ligeras en casa.
-              Vivimos en [ubicación], así que si estás cerca sería ideal.
-              ¡Gracias!
-            </p>
-          </div>
-        </div>
-        <div class="m-auto my-5">
-          <img src="../../public/img/line.svg" alt="" />
-        </div>
-        <div class="grid grid-cols-[auto,1fr] grid-rows-[auto,1fr]">
-          <img
-            class="min-w-[80px] max-w-[120px] w-[10vw] md:row-start-1 lg:row-end-3 sm:w-32"
-            src="../../public/img/foto-card-forum-solicitudes.svg"
-            alt=""
-          />
-          <div
-            class="grid grid-cols-3 grid-rows-[auto,auto,auto] pl-5 gap-y-0 md:gap-y-[10px]"
-          >
-            <p
-              class="text-textColor font-semibold row-start-1 col-start-1 col-end-3"
-            >
-              Nombre: Luis
-            </p>
-            <p
-              class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-1"
-            >
-              Apellidos: Rojas
-            </p>
-            <p
-              class="text-textColor font-semibold col-start-1 col-end-3 sm:row-start-2"
-            >
-              Edad: 45
-            </p>
-            <p
-              class="text-textColor font-semibold col-start-1 col-end-3 sm:col-start-2 sm:row-start-2"
-            >
-              Ubicación: Vic
-            </p>
-            <p
-              class="text-textColor hidden sm:block font-semibold col-start-2 row-start-1 col-end-4 ml-8 sm:ml-0 sm:col-start-3 sm:row-start-1"
-            >
-              Telefono: 631367253
-            </p>
-            <p class="hidden sm:block sm:col-start-1 sm:col-end-4 text-justify">
-              <span class="text-textColor font-semibold"
-                >Solicitud: <br /> </span
-              >Hola, estoy buscando un/a canguro responsable y con experiencia
-              para cuidar a mis hijos (3 y 5 años) los fines de semana y algunas
-              tardes entre semana. Nos gustaría alguien que disfrute de jugar
-              con niños y pueda ayudar con algunas tareas ligeras en casa.
-              Vivimos en [ubicación], así que si estás cerca sería ideal.
-              ¡Gracias!
-            </p>
-          </div>
-          <div
-            class="col-start-1 col-end-4 row-start-2 pt-4 text-justify md:col-start-2 md:px-5 sm:hidden"
-          >
-            <p>
-              <span class="text-textColor font-semibold">Solicitud: </span>Hola,
-              estoy buscando un/a canguro responsable y con experiencia para
-              cuidar a mis hijos (3 y 5 años) los fines de semana y algunas
-              tardes entre semana. Nos gustaría alguien que disfrute de jugar
-              con niños y pueda ayudar con algunas tareas ligeras en casa.
-              Vivimos en [ubicación], así que si estás cerca sería ideal.
-              ¡Gracias!
-            </p>
-          </div>
-        </div>
-      </div>
       </div>
     </main>
 
@@ -382,19 +412,19 @@
         <p class="underline mb-2">Siguenos</p>
         <ul class="flex flex-col gap-3 md:flex-row md:gap-6 md:mt-2 mr-4">
           <a href="" class="flex items-center flex-row gap-2">
-            <img src="../../public/img/facebook.svg" alt="" />
+            <img src="../assets/facebook.svg" alt="" />
             <p class="md:hidden">sitterlyfb.com</p>
           </a>
           <a href="" class="flex items-center flex-row gap-2">
-            <img src="../../public/img/instagram.svg" alt="" />
+            <img src="../assets/instagram.svg" alt="" />
             <p class="md:hidden">sitterlyfb.com</p>
           </a>
           <a href="" class="flex items-center flex-row gap-2">
-            <img src="../../public/img/twitter.svg" alt="" />
+            <img src="../assets/twitter.svg" alt="" />
             <p class="md:hidden">sitterlyfb.com</p>
           </a>
           <a href="" class="flex items-center flex-row gap-2">
-            <img src="../../public/img/linkdn.svg" alt="" />
+            <img src="../assets/linkdn.svg" alt="" />
             <p class="md:hidden">sitterlyfb.com</p>
           </a>
         </ul>
